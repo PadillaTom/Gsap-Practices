@@ -6,22 +6,18 @@ const Banner = () => {
     <React.Fragment>
       <section className='section banner-sect'>
         <div className='banner-container'>
-          <div className='text--container'>
-            <div className='banner-line'>
-              <h2>
-                <span>Creating unique brand is</span>
-              </h2>
-            </div>
-            <div className='banner-line'>
-              <h2>
+          <div className='text-container'>
+            <h2>
+              <div className='banner-line'>
+                <span>Creating unique brands is</span>
+              </div>
+              <div className='banner-line'>
                 <span>what we do.</span>
-              </h2>
-            </div>
-          </div>
-          <div className='banner-cta'>
-            <h5>
+              </div>
+            </h2>
+            <div className='banner-cta'>
               More about us <RightArrow></RightArrow>
-            </h5>
+            </div>
           </div>
         </div>
       </section>
