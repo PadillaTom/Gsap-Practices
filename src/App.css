@@ -102,23 +102,37 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 1rem auto;
 }
 .logo h1 {
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
   color: black;
   font-weight: 700;
+  text-transform: uppercase;
 }
-
 .navbar {
-  width: 85%;
-  margin: 0 auto;
+  width: 1rem;
 }
 .navbar span {
-  margin-bottom: 0.3rem;
-  background: black;
-  height: 2px;
   display: block;
+  height: 2px;
+  margin: 0.2rem 0rem;
+  background: black;
+}
+/* Banner */
+.banner-sect {
+  max-height: 50vh; /*Fallback Option*/
+}
+.text-container {
+}
+.banner-line {
+}
+.banner-line h2 span {
+}
+.banner-cta {
 }
 
 /* END AWWWWARDS WEBSITE  */
