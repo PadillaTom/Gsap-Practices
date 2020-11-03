@@ -9,14 +9,14 @@ const Banner = () => {
           <div className='text-container'>
             <h2>
               <div className='banner-line'>
-                <span>Creating unique brands is</span>
+                <span>Aguante el Paco</span>
               </div>
               <div className='banner-line'>
-                <span>what we do.</span>
+                <span>Es vida.</span>
               </div>
             </h2>
             <div className='banner-cta'>
-              More about us <RightArrow></RightArrow>
+              More about : Paco <RightArrow></RightArrow>
             </div>
           </div>
         </div>
