@@ -3,8 +3,6 @@ import { AiOutlineBars, AiOutlineShareAlt } from 'react-icons/ai';
 import gsap, { TweenMax } from 'gsap';
 
 const PhotographyApp = () => {
-  let tl = gsap.timeline();
-
   useEffect(() => {
     // :::::::: Prevent Animation Flash::::::::
     gsap.to('body', 0, { css: { visibility: 'visible' } });
