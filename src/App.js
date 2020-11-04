@@ -1,10 +1,12 @@
 import './App.scss';
-import AwwwardsApp from './Awwwards/AwwwardsApp';
+// Pages:
+// import AwwwardsApp from './Awwwards/AwwwardsApp';
+import PhotographyApp from './PhotographyPortfolio/PhotographyApp';
 
 function App() {
   return (
     <div className='App'>
-      <AwwwardsApp></AwwwardsApp>
+      <PhotographyApp></PhotographyApp>
     </div>
   );
 }
