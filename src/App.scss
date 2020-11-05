@@ -572,57 +572,152 @@ a {
 // }
 // /* End PHOTOHTAPHY PORTFOLIO */
 
-/* ::::::::::::::::::::::::: MINIMAL NAVIGATION :::::::::::::::::::::::::::::::: */
-.background-app {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('./MinimalNavigation/Assets/watch1.jpg') no-repeat 50% 50%;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-}
+// /* ::::::::::::::::::::::::: MINIMAL NAVIGATION :::::::::::::::::::::::::::::::: */
+// .background-app {
+//   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+//     url('./MinimalNavigation/Assets/watch1.jpg') no-repeat 50% 50%;
+//   background-size: cover;
+//   width: 100%;
+//   height: 100vh;
+// }
 
-.title {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  letter-spacing: 1.2rem;
-  font-weight: 400;
-}
-.menu-toggle {
-  background: white;
-  position: fixed;
-  width: 10%;
-  height: 100vh;
-  z-index: 1;
-  border-right: 1px solid rgba(0, 0, 0, 0.3);
-}
-.toggle-btn {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.menu-bars {
-  font-size: 1.6rem;
-  color: #95970b;
-}
-.menu {
-  position: absolute;
-  width: 45%;
-  height: 100vh;
-  left: 10%;
-  background: white;
-}
+// .title {
+//   position: absolute;
+//   width: 100%;
+//   top: 50%;
+//   left: 55%;
+//   transform: translate(-50%, -50%);
+//   color: white;
+//   text-transform: uppercase;
+//   font-size: 1.2rem;
+//   letter-spacing: 1.2rem;
+//   font-weight: 400;
+// }
+// .menu-toggle {
+//   background: white;
+//   position: fixed;
+//   width: 10%;
+//   height: 100vh;
+//   z-index: 1;
+//   border-right: 1px solid rgba(0, 0, 0, 0.3);
+// }
+// .toggle-btn {
+//   position: absolute;
+//   top: 10%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+// .menu-bars {
+//   font-size: 1.6rem;
+//   color: #95970b;
+// }
+// .menu {
+//   position: absolute;
+//   width: 0%;
+//   height: 100%;
+//   left: 10%;
+//   background: white;
+// }
+// .nav-images {
+//   position: absolute;
+//   width: 0%;
+//   height: 100%;
+//   left: 55%;
+//   background: url('./MinimalNavigation/Assets/watch2.jpg') no-repeat 50% 50%;
+//   background-size: cover;
+// }
+// .bg {
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   background: black;
+// }
+// .nav-menu {
+//   position: absolute;
+//   width: 60%;
+//   height: 100%;
+//   left: 10%;
+//   top: 62%;
+//   transform: translateY(-50%);
+// }
+// .nav-menu ul {
+//   position: absolute;
+//   top: 36%;
+//   left: 30%;
+//   transform: translate(-50%, -50%);
+// }
+// .nav-menu ul li {
+//   cursor: pointer;
+//   color: #594637;
+//   font-weight: 300;
+//   font-size: 2rem;
+//   line-height: 4rem;
+//   transition: var(--MainTransition);
+// }
+// #menu {
+//   letter-spacing: 2px;
+//   background: linear-gradient(#5b5b5b, #5b5b5b) left no-repeat, #afafaf;
+//   background-size: 0% 100%;
+//   background-clip: text;
+//   transition: var(--MainTransition);
+//   -webkit-text-fill-color: transparent;
+// }
+// #menu:hover {
+//   background-size: 100% 100%;
+// }
+// #order {
+//   font-size: 1rem;
+//   font-weight: 400;
+//   color: #afafaf;
+// }
+// #tag {
+//   font-size: 1.1rem;
+//   font-weight: 400;
+//   color: #afafaf;
+//   transition: var(--MainTransition);
+// }
+// .nav-menu ul li:hover #tag {
+//   color: #a66f2c;
+// }
+// .media {
+//   position: absolute;
+//   top: 90%;
+//   left: 30%;
+//   transform: translate(-50%, -50%);
+// }
+// .media ul li {
+//   display: inline-block;
+//   color: #afafaf;
+//   margin-right: 0.7rem;
+//   font-size: 1.1rem;
+// }
+// .bg1 {
+//   display: block;
+//   background: url('./MinimalNavigation/Assets/watch2.jpg') no-repeat 50% 50%;
+//   background-size: cover;
+// }
+// .bg2 {
+//   display: block;
+//   background: url('./MinimalNavigation/Assets/watch3.jpg') no-repeat 50% 50%;
+//   background-size: cover;
+// }
+// .bg3 {
+//   display: block;
+//   background: url('./MinimalNavigation/Assets/watch4.jpg') no-repeat 50% 50%;
+//   background-size: cover;
+// }
+// .bg4 {
+//   display: block;
+//   background: url('./MinimalNavigation/Assets/watch5.jpg') no-repeat 50% 50%;
+//   background-size: cover;
+// }
+// .hide {
+//   display: none;
+// }
+// /* End  MINIMAL NAVIGATION  */
 
-/* End  MINIMAL NAVIGATION  */
-
-/* :::::::::::::::::::::::::  :::::::::::::::::::::::::::::::: */
-/* End  */
+/* ::::::::::::::::::::::::: FULLPAGE ANIMATIONS  :::::::::::::::::::::::::::::::: */
+/* End  FULLPAGE ANIMATIONS  */
 
 /* :::::::::::::::::::::::::  :::::::::::::::::::::::::::::::: */
 /* End  */

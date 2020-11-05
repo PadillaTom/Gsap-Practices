@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
+import $, { jQuery } from 'jquery';
+
 // Icons:
 import { HiMenuAlt2 } from 'react-icons/hi';
 import {
@@ -10,6 +12,40 @@ import {
 } from 'react-icons/ai';
 
 const MinimalNavigationApp = () => {
+  jQuery(function () {
+    $('.menu-item-1').hover(
+      function () {
+        $('.bg1').fadeIn(800);
+      },
+      function () {
+        $('.bg1'.fadeOut(800));
+      }
+    );
+    $('.menu-item-2').hover(
+      function () {
+        $('.bg2').fadeIn(800);
+      },
+      function () {
+        $('.bg2'.fadeOut(800));
+      }
+    );
+    $('.menu-item-3').hover(
+      function () {
+        $('.bg3').fadeIn(800);
+      },
+      function () {
+        $('.bg3'.fadeOut(800));
+      }
+    );
+    $('.menu-item-4').hover(
+      function () {
+        $('.bg4').fadeIn(800);
+      },
+      function () {
+        $('.bg4'.fadeOut(800));
+      }
+    );
+  });
   useEffect(() => {
     gsap.to('body', 0, { css: { visibility: 'visible' } });
   }, []);
@@ -34,26 +70,26 @@ const MinimalNavigationApp = () => {
             <span className='bg bg4 hide'></span>
           </div>
           <div className='nav'>
-            <div className='menu'>
+            <div className='nav-menu'>
               <ul>
                 <li>
                   <span id='order'>01.</span>
-                  <span id='menu'> Home /</span>
+                  <span id='menu'> Home / </span>
                   <span id='tag'>Intro</span>
                 </li>
                 <li>
                   <span id='order'>02.</span>
-                  <span id='menu'> Our Story /</span>
+                  <span id='menu'> Our Story / </span>
                   <span id='tag'>Since 1800</span>
                 </li>
                 <li>
                   <span id='order'>03.</span>
-                  <span id='menu'> Portfolio /</span>
+                  <span id='menu'> Portfolio / </span>
                   <span id='tag'>Latest Works</span>
                 </li>
                 <li>
                   <span id='order'>04.</span>
-                  <span id='menu'> Contact /</span>
+                  <span id='menu'> Contact / </span>
                   <span id='tag'>Get in Touch</span>
                 </li>
               </ul>
