@@ -3,12 +3,13 @@ import './App.scss';
 // import AwwwardsApp from './Awwwards/AwwwardsApp';
 // import PhotographyApp from './PhotographyPortfolio/PhotographyApp';
 // import MinimalNavigationApp from './MinimalNavigation/MinimalNavigationApp';
-import FullpageAnimations from './Fullpage Animations/FullpageAnimations';
+// import FullpageAnimations from './Fullpage Animations/FullpageAnimations';
+import DaftCreation from './Daft Creation/DaftCreationApp';
 
 function App() {
   return (
     <div className='App'>
-      <FullpageAnimations></FullpageAnimations>
+      <DaftCreation></DaftCreation>
     </div>
   );
 }
